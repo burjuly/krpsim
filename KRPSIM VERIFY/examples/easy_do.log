@@ -1,0 +1,14 @@
+# Main walk
+0:achat_clown
+30:achat_serpentin
+40:achat_serpentin
+50:achat_serpentin
+60:achat_serpentin
+70:achat_cotillon
+72:achat_cotillon
+74:achat_confetti
+# No more process doable at cyle 76
+Stock :
+euro => 0
+kid => 1
+happiness => 835

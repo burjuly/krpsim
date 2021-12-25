@@ -1,0 +1,10 @@
+# Main walk
+0:achat_materiel
+10:realisation_produit
+40:livraison
+# No more process doable at cyle 61
+# Stock :
+#  euro => 2
+#  materiel => 0
+#  produit => 0
+#  client_content => 1

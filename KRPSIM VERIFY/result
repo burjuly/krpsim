@@ -1,0 +1,28 @@
+### Description of config file:
+* Number of processes: 4
+* Number of stocks: 3
+* Need to optimize: 1
+### Stocks:
+* euro : 100
+* kid : 1
+* happiness : 0
+### Processes:
+* achat_cotillon : (euro:2;kid:1) : (happiness:6;kid:1) : 2
+* achat_clown : (euro:55;kid:1) : (happiness:500;kid:1) : 30
+* achat_serpentin : (euro:10;kid:1) : (happiness:80;kid:1) : 10
+* achat_confetti : (euro:1;kid:1) : (happiness:2;kid:1) : 1
+### Optimizing: 
+* happiness
+Check progress: 0 : achat_clown 
+Check progress: 30 : achat_serpentin 
+Check progress: 40 : achat_serpentin 
+Check progress: 50 : achat_serpentin 
+Check progress: 60 : achat_serpentin 
+Check progress: 70 : achat_cotillon 
+Check progress: 72 : achat_cotillon 
+Check progress: 74 : achat_confetti 
+Check result: euro => 0 
+Check result: kid => 1 
+Check result: happiness => 835 
+Error was detected. Total resource amount *happiness* is incorrect - 835.
+Correct amount of resource *happiness* is 834.
