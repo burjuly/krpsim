@@ -1,0 +1,28 @@
+STOCKS IN PROCESSES
+{'armoire', 'fond', 'etagere', 'montant'}
+### Description of config file:
+* Number of processes: 4
+* Number of stocks: 5
+* Need to optimize: 2
+### Stocks:
+* planche : 7
+* armoire : 0
+* fond : 0
+* etagere : 0
+* montant : 0
+### Processes:
+* do_montant : (planche:1) : (montant:1) : 15
+* do_fond : (planche:2) : (fond:1) : 20
+* do_etagere : (planche:1) : (etagere:1) : 10
+* do_armoire_ikea : (montant:2;fond:1;etagere:3) : (armoire:1) : 30
+### Optimizing: 
+* time
+* armoire
+Check progress: 0 : do_etagere 
+Check progress: 0 : do_etagere 
+Check progress: 0 : do_etagere 
+Check progress: 0 : do_montant 
+Check progress: 0 : do_montant 
+Check progress: 0 : do_fond 
+Check progress: 20 : do_armoire_ikea 
+Verification completed. No errors detected.
